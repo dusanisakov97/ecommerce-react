@@ -7,7 +7,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src={require("../assets/logo.png")} />
+        <Link to="/">
+          <img src={require("../assets/logo.png")} />
+        </Link>
       </div>
       <div className="links">
         <Link to="/">Shop</Link>

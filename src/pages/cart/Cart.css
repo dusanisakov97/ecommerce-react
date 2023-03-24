@@ -66,10 +66,47 @@
   font-size: 1.5rem;
   text-align: center;
 }
-
+/*
 @media (max-width: 640px) {
   .cartItem {
     margin: 2rem auto;
     width: 80%;
+  }
+}
+*/
+@media (max-width: 640px) {
+  .cartItem {
+    margin: 2rem auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .cartItem .cart-name {
+    text-align: center;
+  }
+
+  .cartItem img {
+    margin-left: 0;
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+  .cartItem .cart-description {
+    font-size: 1.5rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  .countHandler input {
+    width: 3rem;
+    font-size: 1rem;
+  }
+
+  .countHandler button {
+    padding: 0.5rem;
   }
 }
