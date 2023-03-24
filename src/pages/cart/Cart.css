@@ -66,3 +66,10 @@
   font-size: 1.5rem;
   text-align: center;
 }
+
+@media (max-width: 640px) {
+  .cartItem {
+    margin: 2rem auto;
+    width: 80%;
+  }
+}

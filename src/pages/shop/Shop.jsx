@@ -81,6 +81,7 @@ const Shop = () => {
             Knife Shedder
           </label>
         </form>
+        <div className="price-category"></div>
       </div>
       <div className="products">
         {" "}
