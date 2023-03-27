@@ -77,7 +77,7 @@ const Shop = () => {
               name="knife-shedder"
               value="Knife Shedder"
               onChange={handleChange}
-            />{" "}
+            />
             Knife Shedder
           </label>
         </form>
